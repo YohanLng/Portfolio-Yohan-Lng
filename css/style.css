@@ -613,6 +613,12 @@ span {
     }
 }
 
+@media only screen and (max-width: 768px) {
+    img {
+      display: none;
+    }
+  }
+
 /* KEYFRAME ANIMATION */
 @keyframes acceuilBgText {
     0%, 10%, 100% {
