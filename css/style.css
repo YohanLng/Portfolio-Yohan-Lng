@@ -643,6 +643,8 @@ span {
         display: none;
     }
 }
+
+
 /* KEYFRAME ANIMATION */
 @keyframes acceuilBgText {
     0%, 10%, 100% {
