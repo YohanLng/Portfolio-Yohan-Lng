@@ -440,6 +440,10 @@ span {
     font-weight: bold;
 }
 
+.veille-conclusion {
+    margin-top: 3rem;
+}
+
 @media (max-width: 768px) {
     .veille-block {
         max-width: 100%; /* Ajustez la largeur maximale pour s'adapter à la taille de l'écran */
