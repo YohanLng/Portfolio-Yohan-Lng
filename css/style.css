@@ -387,14 +387,68 @@ span {
 
 
 .veille{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 2rem;
     background: var(--second-bg-color);
-    padding-bottom: 6rem;
 }
+
+.veille h3 {
+    font-size: 3rem; /* Augmente la taille du texte des titres h3 */
+    text-align: left; /* Aligne les titres à gauche */
+    color: var(--main-color);
+}
+
+.veille p {
+    font-size: 1.5rem;
+}
+
+.veille-block-container {
+    max-width: 1000px; /* Définissez la largeur maximale du conteneur */
+    margin: 0 auto; /* Centrez le conteneur horizontalement */
+    display: flex; /* Utilisez Flexbox pour aligner les blocs */
+    flex-wrap: wrap; /* Permettez aux blocs de passer à la ligne */
+    justify-content: space-around; /* Distribuez les blocs de manière égale avec un espacement autour */
+}
+
+.veille-block {
+    max-width: 300px; /* Définissez la largeur maximale de chaque bloc */
+    margin: 2rem auto 1rem; /* Centrez horizontalement et ajoutez un espacement autour de chaque bloc */
+    margin-right: 1rem;
+    text-align: left; /* Alignez le contenu du bloc à gauche */
+    border: 2px solid var(--main-color); /* Ajoutez une bordure violette */
+    padding: 1rem; /* Ajoutez un espace à l'intérieur du bloc */
+    display: inline-block; /* Permet à chaque bloc de se positionner côte à côte */
+}
+.veille-block img {
+    max-width: 100%; /* Définir la largeur maximale de l'image sur 100% de la largeur du conteneur */
+    height: auto; /* Permettre à la hauteur de l'image de s'ajuster automatiquement pour conserver les proportions */
+    display: block; /* Assurez-vous que l'image est affichée en tant que bloc pour gérer les marges et les paddings correctement */
+}
+
+
+.veille-info {
+    margin-top: 1rem; /* Ajoutez un espacement entre l'image et le texte */
+}
+
+.veille-info p {
+    font-size: 1.6rem; /* Taille du texte explicatif */
+    margin-bottom: 1rem; /* Ajoutez un espacement en dessous du paragraphe */
+}
+
+.veille-info a {
+    color: var(--main-color); /* Couleur du lien */
+    text-decoration: underline; /* Soulignez le lien */
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .veille-block {
+        max-width: 100%; /* Ajustez la largeur maximale pour s'adapter à la taille de l'écran */
+        display: block; /* Affiche chaque bloc sur une nouvelle ligne */
+    }
+}
+
+
+
 
 .contact {
     min-height: auto;
