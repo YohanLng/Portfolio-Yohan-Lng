@@ -256,7 +256,7 @@ section {
     height: 500px; /* Ajustez cette valeur en fonction de la taille souhaitée */
     border-radius: 50% 20% / 10% 40%;
     object-fit: cover; /* Pour s'assurer que l'image s'adapte correctement au cercle */
-    opacity: .6;
+    opacity: 0;
   }
 
 .accueil-imgHover {
